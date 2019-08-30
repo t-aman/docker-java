@@ -27,7 +27,7 @@
         $ javac Main.java && java Main
 
     - 4.コンテナ停止
-        $ docker rm -f www
+        $ docker rm -f java
 
 #### 公開イメージから起動する場合
     - 1.コンテナ起動
@@ -40,7 +40,7 @@
         $ javac Main.java && java Main
 
     - 3.コンテナ停止
-        $ docker rm -f www
+        $ docker rm -f java
 
 
 # その他
@@ -62,4 +62,4 @@
     $ docker-machine ssh default 'sudo mkdir -p /d'
     $ docker-machine ssh default 'sudo mount -t vboxsf -o uid=0,gid=0 D_DRIVE /d'
 
-    「D:\WORK\docker-php」が利用可能になる
+    「D:\WORK\docker-java」が利用可能になる
